@@ -44,7 +44,7 @@ svg {
 .current {
   display: flex;
   -moz-column-gap: 12px;
-  column-gap: 12px;
+       column-gap: 12px;
 }
 .current-image {
   background-size: cover;
@@ -116,7 +116,7 @@ svg {
   align-items: center;
   justify-content: center;
   -moz-column-gap: 45px;
-  column-gap: 45px;
+       column-gap: 45px;
 }
 .controls-button {
   cursor: pointer;
@@ -243,23 +243,20 @@ svg {
   align-items: center;
   margin-left: auto;
   -moz-column-gap: 10px;
-  column-gap: 10px;
+       column-gap: 10px;
 }
 .handling svg {
   cursor: pointer;
 }
-.handling .icon-repeat,
-.handling .icon-sound {
+.handling .icon-repeat, .handling .icon-sound {
   width: 24px;
   height: 24px;
   fill: #ff874a;
 }
-.handling .icon-repeat:hover,
-.handling .icon-sound:hover {
+.handling .icon-repeat:hover, .handling .icon-sound:hover {
   fill: #ffba97;
 }
-.handling .icon-repeat:active,
-.handling .icon-sound:active {
+.handling .icon-repeat:active, .handling .icon-sound:active {
   fill: #fd5500;
 }
 .handling .icon-shuffle {
@@ -295,4 +292,4 @@ svg {
 }
 .volume input {
   cursor: pointer;
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
